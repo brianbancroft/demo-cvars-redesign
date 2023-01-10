@@ -11,7 +11,7 @@
 			class="m-2 p-1 w-[450px] h-[150px] border rounded flex flex-com items-end group hover:border-orange-500 ease-in-out transition-all"
 		>
 			<div class="flex group-hover:text-orange-500 transition-all ease-in-out">
-				<p class="mr-2">download pdf form</p>
+				<p class="mr-2">download membership form</p>
 				<DownloadIcon />
 			</div>
 		</div>
