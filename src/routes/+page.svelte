@@ -34,3 +34,18 @@
 		>
 	</p>
 </section>
+
+<section>
+	<h2>Emergency Prepardness</h2>
+	<p>
+		CVARS supports community communications needs and has designed and constructed a fully equipped
+		Communications Trailers. Emergency radio communications kits are distributed throughout the
+		area. Many of CVARS members support the local regional district.
+	</p>
+
+	<h3>forms</h3>
+	<a href="http://www.cvrd.bc.ca/index.aspx?nid=225">(CVRD) Emergency Communications Team</a>
+	<a href="http://www.cvrd.bc.ca/index.aspx?NID=1320"
+		>(CVRD) Cowichan Valley Regional District ECT Forms</a
+	>
+</section>
