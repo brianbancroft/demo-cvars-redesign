@@ -19,9 +19,8 @@ jobs:
     - name: Build and Export SvelteKit App
       run: npm run build
 
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-
+    - name: Deploy to Netlify
+    - uses: jsmrcaga/action-netlify-deploy@v1.1.0
       with:
-        BRANCH: gh-pages
-        FOLDER: build
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_DEPLOY_TOKEN }}
+        NETLIFY_DEPLOY_TO_PROD: true
