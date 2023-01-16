@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .nav-link {
+        @apply uppercase transition-all ease-in-out duration-150 hover:text-orange-400;
+    }
+}
