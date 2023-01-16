@@ -1,0 +1,5 @@
+import{S as D,i as H,s as J,k as h,q as _,a as k,l as m,m as p,r as x,h as t,c as T,b as B,E as o,B as E}from"../../../chunks/index-52c79acb.js";function S(A){let a,d,i,n,l,u,f,r,C;return{c(){a=h("h1"),d=_("hello community"),i=k(),n=h("section"),l=h("h2"),u=_("Calendar"),f=k(),r=h("p"),C=_(`Calendar of Events Basic Ham Course Jan 24, 2023 Advanced Ham Course TBD "What Next?" Q & A
+		Session TBD Coax Connector Workshop Jan 21, 2023 Antenna Building Workshop Jan 28, 2023 Winlink
+		Express TBD`)},l(e){a=m(e,"H1",{});var s=p(a);d=x(s,"hello community"),s.forEach(t),i=T(e),n=m(e,"SECTION",{});var c=p(n);l=m(c,"H2",{});var v=p(l);u=x(v,"Calendar"),v.forEach(t),f=T(c),r=m(c,"P",{});var W=p(r);C=x(W,`Calendar of Events Basic Ham Course Jan 24, 2023 Advanced Ham Course TBD "What Next?" Q & A
+		Session TBD Coax Connector Workshop Jan 21, 2023 Antenna Building Workshop Jan 28, 2023 Winlink
+		Express TBD`),W.forEach(t),c.forEach(t)},m(e,s){B(e,a,s),o(a,d),B(e,i,s),B(e,n,s),o(n,l),o(l,u),o(n,f),o(n,r),o(r,C)},p:E,i:E,o:E,d(e){e&&t(a),e&&t(i),e&&t(n)}}}class N extends D{constructor(a){super(),H(this,a,null,S,J,{})}}export{N as default};
