@@ -13,11 +13,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build and Export SvelteKit App
-      run: npx sveltekit build && npx sveltekit export
+      run: npm run build
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: __sapper__/export
+        FOLDER: build
